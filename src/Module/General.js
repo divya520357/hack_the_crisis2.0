@@ -24,12 +24,15 @@ import filecoin from "../Module/Assets/devfolio/Filecoin White.svg";
 import polygon from "../Module/Assets/devfolio/Polygon_Logo-White.svg";
 import tezos from "../Module/Assets/devfolio/Tezos_Logo-White.svg";
 
-import mentorbox from "../Module/Assets/sponsorsLogos/mentorbox.jpg";
-import newton from "../Module/Assets/sponsorsLogos/newton.jpg";
+import mentorboxx from "../Module/Assets/sponsorsLogos/mentorboxx.png";
+import newton from "../Module/Assets/sponsorsLogos/newton.png";
 import grabon from "../Module/Assets/sponsorsLogos/grabon.png";
-import noticeboard from "../Module/Assets/sponsorsLogos/noticeboard.png";
+import noticebard from "../Module/Assets/sponsorsLogos/noticebard.png";
 import letsgrowmore from "../Module/Assets/sponsorsLogos/letsgrowmore.png";
-import pharmeasy from "../Module/Assets/sponsorsLogos/pharmeasy.jpg";
+import pharmeasy from "../Module/Assets/sponsorsLogos/pharmeasy.png";
+import metvylearn from "../Module/Assets/sponsorsLogos/metvylearn.png";
+import securityella from "../Module/Assets/sponsorsLogos/securityella.png";
+import workadventure from "../Module/Assets/sponsorsLogos/workadventure.png";
 
 // Importing all Team members images  from Assets
 import piyush from "./Assets/teami/Piyush.jpeg";
@@ -136,7 +139,7 @@ const Prizeinfo = [
     },
     {
       icon: <i className=" third fas fa-4x fa-skiing-nordic"></i>,
-      type: "Third Second",
+      type: "Overall Third",
       content:
         "Best third overall project of the hackathon will win some awesome prizes"
     }
@@ -365,17 +368,22 @@ const sponsorLogos = [
   [
     {src: filecoin, link: "https://filecoin.io"},
     {src: celo, link: "https://celo.org"},
-    {src: mentorbox, link: ""}
+    {src: mentorboxx, link: ""}
   ],
   [
-    {src: noticeboard, link: ""},
+    {src: noticebard, link: ""},
     {src: grabon, link: ""},
     {src: pharmeasy, link: ""}
-  ], //Array 2 //Array 3
+  ], //Array 2 
   [
     {src: letsgrowmore, link: ""},
-    {src: newton, link: ""}
-  ] //Array 4
+    {src: newton, link: ""},
+    {src: metvylearn, link: ""}
+  ], //Array 4 
+  [
+    {src: securityella, link: ""},
+    {src: workadventure, link: ""}
+  ],
 ];
 
 /** Instructions
