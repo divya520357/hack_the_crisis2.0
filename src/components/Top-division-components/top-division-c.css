@@ -112,9 +112,9 @@ button:hover .overlay {
 }
 
 @media (max-width: 1200px) {
-  .AboutMe h2 {
-    /* font-size: 6rem; */
-  }
+  /* .AboutMe h2 {
+    font-size: 6rem;
+  } */
 }
 
 /* main targer */
