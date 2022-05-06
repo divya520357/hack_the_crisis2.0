@@ -33,6 +33,7 @@ import pharmeasy from "../Module/Assets/sponsorsLogos/pharmeasy.png";
 import metvylearn from "../Module/Assets/sponsorsLogos/metvylearn.png";
 import securityella from "../Module/Assets/sponsorsLogos/securityella.png";
 import workadventure from "../Module/Assets/sponsorsLogos/workadventure.png";
+import voidimg from "../Module/Assets/sponsorsLogos/voidimg.png";
 
 // Importing all Team members images  from Assets
 import piyush from "./Assets/teami/Piyush.jpeg";
@@ -358,32 +359,66 @@ const TeamInfo = [
  * in a group of 3.
  */
 
-const sponsorLogos = [
+// const sponsorLogos = [
 
+//   [
+//     {src: devfolio, link: "https://devfolio.co"},
+//     {src: polygon, link: "https://polygon.technology/"},
+//     {src: tezos, link: "https://tezos.com"}
+//   ], //Array 1
+//   [
+//     {src: filecoin, link: "https://filecoin.io"},
+//     {src: celo, link: "https://celo.org"},
+//     {src: mentorboxx, link: ""}
+//   ],
+//   [
+//     {src: noticebard, link: ""},
+//     {src: grabon, link: ""},
+//     {src: pharmeasy, link: ""}
+//   ], //Array 2 
+//   [
+//     {src: letsgrowmore, link: ""},
+//     {src: newton, link: ""},
+//     {src: metvylearn, link: ""}
+//   ], //Array 4 
+//   [
+//     {src: securityella, link: ""},
+//     {src: workadventure, link: ""}
+//   ],
+// ];
+
+const eventpartner = [[
+  {src: voidimg, link: ""},
+  {src: workadventure, link: ""},
+  {src: voidimg, link: ""}
+]
+];
+
+const platinumsponsor = [[
+  {src: devfolio, link: "https://devfolio.co"},
+  {src: newton, link: ""},
+  {src: polygon, link: "https://polygon.technology/"}
+]
+];
+
+const goldsponsor = [[
+  {src: tezos, link: "https://tezos.com"},
+  {src: filecoin, link: "https://filecoin.io"},
+  {src: celo, link: "https://celo.org"}
+]];
+
+const silversponsor = [
   [
-    {src: devfolio, link: "https://devfolio.co"},
-    {src: polygon, link: "https://polygon.technology/"},
-    {src: tezos, link: "https://tezos.com"}
-  ], //Array 1
-  [
-    {src: filecoin, link: "https://filecoin.io"},
-    {src: celo, link: "https://celo.org"},
-    {src: mentorboxx, link: ""}
+    {src: grabon, link: ""},
+    {src: metvylearn, link: ""},
+    {src: letsgrowmore, link: ""},
   ],
   [
     {src: noticebard, link: ""},
-    {src: grabon, link: ""},
-    {src: pharmeasy, link: ""}
-  ], //Array 2 
-  [
-    {src: letsgrowmore, link: ""},
-    {src: newton, link: ""},
-    {src: metvylearn, link: ""}
-  ], //Array 4 
-  [
     {src: securityella, link: ""},
-    {src: workadventure, link: ""}
+    {src: mentorboxx, link: ""},
   ],
+  [{src: pharmeasy, link: ""}]
 ];
 
 /** Instructions
@@ -443,7 +478,11 @@ export {
   SOCIALS,
   FOOTER,
   Prizeinfo,
-  sponsorLogos,
+  // sponsorLogos,
+  eventpartner,
+  platinumsponsor,
+  goldsponsor,
+  silversponsor,
   TeamInfo,
   // Mentor as JudgesInfo,
   frequentlyAskedQuestions
