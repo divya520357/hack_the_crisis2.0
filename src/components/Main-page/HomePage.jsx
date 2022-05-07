@@ -20,8 +20,12 @@ import {
   TOP_SECTION,
   TeamInfo,
   // JudgesInfo,
-  sponsorLogos,
-  frequentlyAskedQuestions
+  // sponsorLogos,
+  frequentlyAskedQuestions,
+  eventpartner,
+platinumsponsor,
+goldsponsor,
+silversponsor
 } from "../../Module/General";
 
 // javascript Map for sponsors
@@ -152,14 +156,24 @@ export default function HomePage(props) {
         
         <Row className="sponsorSection" id="sponsors">
           <SponsorsHead />
-          <div>
-            <h5 className="shead">Platinum Sponsors</h5>
+          <div className="eventpartners">
+            <h5 className="ssubhead">Event Partners</h5>
+            {eventpartner.map(SponsorGroup)}
           </div>
-          <div>
-            <h5 className="shead">Gold Sponsors</h5>
+          <div className="platsponsor">
+            <h5 className="ssubhead">Platinum Sponsors</h5>
+            {platinumsponsor.map(SponsorGroup)}
+          </div>
+          <div className="goldSponsors">
+            <h5 className="ssubhead">Gold Sponsors</h5>
+            {goldsponsor.map(SponsorGroup)}
+          </div>
+          <div className="silverSponsors">
+            <h5 className="ssubhead">Silver Sponsors</h5>
+            {silversponsor.map(SponsorGroup)}
           </div>
           {/* <SponsorUS /> */}
-          {sponsorLogos.map(SponsorGroup)}
+          {/* {sponsorLogos.map(SponsorGroup)} */}
           
         </Row>
         {/* ********Sponsors ending here ***** */}
