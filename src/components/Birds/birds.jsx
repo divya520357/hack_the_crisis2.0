@@ -3,10 +3,11 @@ import "./birds.scss";
 
 export default function Waves(props) {
   return (
+    
     <div
       className="container"
       // eslint-disable-next-line react/jsx-no-duplicate-props
-      className={props.type}
+      // className={props.type}
       style={{top: props.top, left: props.left}}
     >
       <div className="bird-container bird-container--one">

@@ -2,20 +2,19 @@ import React from "react";
 import ReactDOM from "react-dom";
 import NAV from "./components/navbar/App.jsx";
 import LOADER from "./components/Loading/loading.jsx";
+import App from "./App.js";
 
 const rootElement = document.getElementById("body");
 const footer = document.getElementById("footer");
 
 ReactDOM.render(
-  <div>
-    <NAV />
-  </div>,
+ <App/>,
   rootElement
 );
 
-ReactDOM.render(
-  <div>
-    <LOADER />
-  </div>,
-  footer
-);
+// ReactDOM.render(
+//   <div>
+//     <LOADER />
+//   </div>,
+//   footer
+// );

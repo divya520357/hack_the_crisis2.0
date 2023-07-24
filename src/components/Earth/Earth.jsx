@@ -20,7 +20,6 @@ function Earth() {
         globeCloudsTexture={null}
         initialCoordinates={[1.3521, 103.8198]}
         markers={data}
-        options={options}
         globeTexture="https://raw.githubusercontent.com/chrisrzhou/react-globe/main/textures/globe_dark.jpg"
       />
     </div>

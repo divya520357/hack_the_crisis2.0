@@ -2,6 +2,7 @@ import React from "react";
 import {Myinfo} from "../Top-division-components/Top-division-components.jsx";
 import Row from "react-bootstrap/Row";
 import Container from "react-bootstrap/Container";
+
 import Col from "react-bootstrap/Col";
 import "./about.css";
 import {Logo, LogoSectionAbout} from "../logo-section/logoSection.jsx";
@@ -27,6 +28,7 @@ platinumsponsor,
 goldsponsor,
 silversponsor
 } from "../../Module/General";
+import { Button, Modal } from "react-bootstrap";
 
 // javascript Map for sponsors
 
@@ -103,7 +105,9 @@ export default function HomePage(props) {
     };
   }, []);
   return (
+    
     <div className="Whole_div" style={{backgroundImage: `url(${pattern})`}}>
+     
       <div className="color_sectiom" id="home">
         <Container fluid>
           <Row className="Row info">

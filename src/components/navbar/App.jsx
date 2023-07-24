@@ -7,6 +7,7 @@ import logoClose from "./ham-c.svg";
 import hacklogo1 from "./hacklogo.png";
 import styled from "styled-components";
 import "./styles.scss";
+  
 
 const Wrapper = styled.div`
   display: block;
